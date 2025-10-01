@@ -22,7 +22,7 @@ It takes maze images, preprocesses them into binary arrays, and automatically fi
 - Terminal Representation: ASCII/colored block output in the terminal.  
 - Image Output: Highlights the solution path in green on the maze image.  
 - Works across different maze sizes (20x20, 40x40, 150x150, etc.).
-- for the 40x40 and 150x150 images make sure you change the size of the terminal so the mazed will be printed 
+- For the 40x40 and 150x150 images make sure you change the size of the terminal so the mazed will be printed 
 
 ## Usage
 
