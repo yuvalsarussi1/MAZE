@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-img = Image.open("MazePhotoTerminal_2.png").convert("L")
+img = Image.open("MazePhotoTerminal_3.png").convert("L")
 img = np.array(img)
 binary_img = (img > 127).astype(np.uint8)
 
@@ -29,6 +29,9 @@ OFFSET  = [[0,1],[0,-1],[1,0],[-1,0]]
 node_tree = {}
 node_id = 1
 total_path = []
+
+
+
 def run2(x,y,px,py,path_pixel = None):
     global node_id,total_path
     directions = directionsCount(binary_img,x,y,px,py) # 0-3 directions
