@@ -1,4 +1,4 @@
-[README(2).md](https://github.com/user-attachments/files/22644602/README.2.md)
+[README.md](https://github.com/user-attachments/files/22644602/README.2.md)
 # Maze Solver in Python
 
 This project implements a maze solver using Python, NumPy, and PIL.  
